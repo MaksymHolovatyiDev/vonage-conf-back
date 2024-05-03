@@ -1,0 +1,36 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Users\Max\.yarn\releases\yarn-1.22.19.cjs init
+
+PATH: 
+  D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Max\bin;D:\Program Files\Microsoft\jdk-11.0.20.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Program Files\dotnet;D:\Program Files\Git\cmd;D:\Program Files\NVIDIA Corporation\PhysX\Common;D:\Program Files (x86)\dotnet;D:\Program Files\GitHub CLI;C:\ProgramData\chocolatey\bin;C:\Users\Max\AppData\Roaming\nvm;D:\Program Files\nodejs;D:\Program Files (x86)\Yarn\bin;D:\Program Files\nodejs;C:\Users\Fojox\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Fojox\AppData\Local\Programs\Python\Python311;C:\Users\Fojox\AppData\Local\Programs\Python\Launcher;D:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Max\AppData\Local\Microsoft\WindowsApps;C:\Users\Max\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files\heroku\bin;C:\Users\Max\AppData\Roaming\nvm;D:\Program Files\nodejs;D:\Files\Microsoft VS Code\bin;C:\Users\Fojox\AppData\Local\Android\Sdk\platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\Max\.yarn\releases\yarn-1.22.19.cjs:131557:13)
+      at Interface.emit (node:events:514:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1131:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:270:20)
+      at ReadStream.emit (node:events:514:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:514:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
